@@ -1,0 +1,113 @@
+{
+  "name": "patientcoreohome",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-native start --port 8082 --reset-cache",
+    "android": "react-native run-android --port 8082",
+    "test": "jest",
+    "coverage": "test -- u --collectCoverage"
+  },
+  "jest": {
+    "preset": "jest-react-native",
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-native|@aspnet/signalr|native-base|react-navigation-redux-helpers|react-navigation|jsencrypt|Navigation|react-native-background-fetch|react-native-background-task)"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "^.+\\.(js)$": "<rootDir>/node_modules/babel-jest",
+      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "testPathIgnorePatterns": [
+      "\\.snap$",
+      "<rootDir>/node_modules/",
+      "<rootDir>/lib/"
+    ],
+    "cacheDirectory": ".jest/cache"
+  },
+  "dependencies": {
+    "@aspnet/signalr": "^1.0.4",
+    "@expo/vector-icons": "^6.3.1",
+    "@ptomasroos/react-native-multi-slider": "^1.0.0",
+    "axios": "^0.18.0",
+    "expo": "^30.0.1",
+    "jsencrypt": "^3.0.0-rc.1",
+    "moment": "^2.24.0",
+    "native-base": "^2.7.2",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-android-settings-library": "^1.0.5",
+    "react-native-background-fetch": "^2.5.1",
+    "react-native-background-task": "^0.2.1",
+    "react-native-carousel-view": "^0.5.1",
+    "react-native-datepicker": "https://github.com/rekha-emids/react-native-datepicker.git",
+    "react-native-device-info": "^0.22.6",
+    "react-native-deviceinfo": "^0.10.4",
+    "react-native-firebase": "5.1.0",
+    "react-native-image-crop-picker": "^0.21.3",
+    "react-native-keep-awake": "^4.0.0",
+    "react-native-linear-gradient": "^2.4.3",
+    "react-native-loader": "1.2.1",
+    "react-native-pdf": "^5.0.9",
+    "react-native-phone-call": "^1.0.9",
+    "react-native-popover-tooltip": "^1.1.4",
+    "react-native-progress-circle": "^2.0.0",
+    "react-native-responsive-screen": "^1.1.9",
+    "react-native-twilio-video-webrtc": "git+https://github.com/Navvisemids/react-native-twilio-video-webrtc.git",
+    "react-native-user-inactivity": "0.0.1-beta.1",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.3.1",
+    "react-navigation-redux-helpers": "^2.0.5",
+    "react-redux": "5.0.7",
+    "realm": "2.17.0",
+    "redux": "4.0.0",
+    "redux-form": "^7.4.2",
+    "redux-logger": "3.0.6",
+    "redux-observable": "^1.0.0",
+    "redux-thunk": "2.3.0",
+    "rn-fetch-blob": "^0.10.13",
+    "rxjs": "^6.3.3",
+    "save": "2.3.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.2",
+    "@types/react": "^16.0.41",
+    "@types/react-native": "^0.52.19",
+    "@types/react-test-renderer": "^16.0.1",
+    "babel-jest": "23.0.1",
+    "babel-preset-react-native": "4.0.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.0",
+    "enzyme-to-json": "^3.3.5",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-native": "^3.6.0",
+    "fetch-mock": "^7.3.1",
+    "jest": "23.1.0",
+    "jest-html-reporter": "^2.4.4",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.3.1",
+    "react-native-mock": "^0.3.1",
+    "react-native-typescript-transformer": "^1.2.3",
+    "react-test-renderer": "16.3.1",
+    "redux-mock-store": "^1.5.3",
+    "sinon": "^7.3.2",
+    "ts-jest": "^22.4.2",
+    "typescript": "^2.8.1"
+  },
+  "rnpm": {
+    "assets": [
+      "./app/assets/fonts/"
+    ]
+  },
+  "config": {
+    "ghooks": {
+      "pre-commit": "if[-d'ignite-base'];thencdignite-base;fi;npmrunfixcode&&gitadd.&&npmrunlint"
+    }
+  }
+}
