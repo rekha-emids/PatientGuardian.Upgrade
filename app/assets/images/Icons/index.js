@@ -1,0 +1,11 @@
+export const error = require('./error.png');
+export const success = require('./success.png');
+export const guardian = require('./guardian.png');
+export const individual = require('./individual.png');
+export const elayer = require('./elayer.png');
+export const completed = require('./completed.png');
+export const current = require('./current.png');
+export const pending = require('./pending.png');
+export const landing = require('./landing.png');
+export const ServiceRequest = require('./ServiceRequest.png');
+export const downArrow = require('./down arrow-01.png')

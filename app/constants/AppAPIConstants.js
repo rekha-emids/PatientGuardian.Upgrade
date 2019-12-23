@@ -1,0 +1,22 @@
+export const API_INITIAL = 0
+export const API_FETCHING = 100
+export const API_REFRESH_FETCHING = 101
+export const API_PAGINATION_FETCHING = 102
+export const API_SUCCESS = 200
+export const API_PAGINATION_FINISHED = 300
+export const API_FAILED = 400
+export const NO_CONTENT = 204
+
+export const API_CLIENT_ERROR = 402
+export const API_CLIENT_UNAUTH_ERROR = 401
+export const API_SCREEN_SPECIFIC_ERROR = 405
+export const API_SERVER_ERROR = 500
+export const API_TIMEOUT_ERROR = 10
+export const API_CONNECTION_ERROR = 11
+export const API_NETWORK_ERROR = 12
+export const API_CANCEL_ERROR = 13
+export const INIT = 'init'
+export const LOAD_MORE = 'loadmore'
+export const REFRESH = 'refresh'
+export const CREATE = 'create'
+export const UPDATE = 'update'

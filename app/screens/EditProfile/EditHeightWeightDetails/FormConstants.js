@@ -1,0 +1,14 @@
+const EDIT_HEIGHTWEIGHT_DETAILS_FORM = "EDIT_PERSONAL_DETAILS_FORM",
+
+
+//FIELD CONSTANTS
+ HEIGHT = "Height",
+ WEIGHT = "Weight",
+
+FormConstants = {
+    HEIGHT,
+    WEIGHT,
+    EDIT_HEIGHTWEIGHT_DETAILS_FORM
+}
+
+export default FormConstants

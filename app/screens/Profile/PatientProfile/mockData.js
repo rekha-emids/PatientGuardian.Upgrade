@@ -1,0 +1,67 @@
+export let navigation = [{
+    actions: {
+        dismiss: jest.fn(),
+        goBack: jest.fn(),
+        navigate: jest.fn(),
+        pop: jest.fn(),
+        popToTop: jest.fn(),
+        push: jest.fn(),
+        replace: jest.fn(),
+        reset: jest.fn(),
+        setParams: jest.fn()
+    },
+    addListener: () => { },
+    dangerouslyGetParent: () => { },
+    dismiss: () => { },
+    dispatch: () => { },
+    getChildNavigation: () => { },
+    getParam: () => { },
+    getScreenProps: () => { },
+    goBack: () => { },
+    isFocused: () => { },
+    navigate: () => { },
+    pop: () => { },
+    popToTop: () => { },
+    push: () => { },
+    replace: () => { },
+    reset: () => { },
+    router: undefined,
+    setParams: () => { },
+    state: {
+        key: "id-1558778781349-4",
+        params: { id: 1022, userType: "I" },
+        routeName: "EditClinicalCondition"
+    }
+},
+{
+    actions: {
+        dismiss: jest.fn(),
+        goBack: jest.fn(),
+        navigate: jest.fn(),
+        pop: jest.fn(),
+        popToTop: jest.fn(),
+        push: jest.fn(),
+        replace: jest.fn(),
+        reset: jest.fn(),
+        setParams: jest.fn()
+    },
+    addListener: () => { },
+    dangerouslyGetParent: () => { },
+    dismiss: () => { },
+    dispatch: () => { },
+    getChildNavigation: () => { },
+    getParam: () => { },
+    getScreenProps: () => { },
+    goBack: () => { },
+    isFocused: () => { },
+    navigate: () => { },
+    pop: () => { },
+    popToTop: () => { },
+    push: () => { },
+    replace: () => { },
+    reset: () => { },
+    router: undefined,
+    setParams: () => { },
+    state: {}
+}
+]

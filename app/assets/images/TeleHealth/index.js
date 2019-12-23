@@ -1,0 +1,14 @@
+export const addperson = require('./addperson.png');
+export const back = require('./back.png');
+export const blankProfileIcon = require('./Blank_Profile_icon.png');
+export const check = require('./check.png');
+export const close = require('./close.png');
+export const dotsWhite = require('./Dots_white.png');
+export const dots = require('./Dots.png');
+export const endCall = require('./End_call.png');
+export const exit = require('./Exit.png');
+export const greenTick = require('./green_tick.png');
+export const leaveConversation = require('./leave_conversation.png');
+export const mute = require('./Mute.png');
+export const noVideo = require('./No_Video.png')
+export const switchCamera = require('./Switch_Camera.png')

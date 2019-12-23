@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/navvisnavvis/Downloads/patientCoreohome/node_modules/react-native/Libraries/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec-generated.mm \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Target\ Support\ Files/FBReactNativeSpec/FBReactNativeSpec-prefix.pch \
+  /Users/navvisnavvis/Downloads/patientCoreohome/node_modules/react-native/Libraries/FBReactNativeSpec/FBReactNativeSpec/FBReactNativeSpec.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/RCTRequired/RCTRequired/RCTRequired.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/RCTTypeSafety/RCTTypeSafety/RCTConvertHelpers.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyVector.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/FBLazyVector/FBLazyVector/FBLazyIterator.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Folly/folly/Optional.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Folly/folly/Portability.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Folly/folly/portability/Config.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Folly/folly/CPortability.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Folly/folly/Traits.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Folly/folly/Utility.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Folly/folly/lang/Exception.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Folly/folly/CppAttributes.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/RCTTypeSafety/RCTTypeSafety/RCTTypedModuleConstants.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/React-Core/React/RCTBridgeModule.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/React-Core/React/RCTDefines.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/React-Core/React/RCTCxxConvert.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/React-Core/React/RCTManagedPointer.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/ReactCommon/ReactCommon/RCTTurboModule.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/React-Core/React/RCTBridge.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/React-Core/React/RCTBridgeDelegate.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/React-Core/React/RCTJavaScriptLoader.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/React-Core/React/RCTFrameUpdate.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/React-Core/React/RCTInvalidating.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/React-Core/React/RCTModuleMethod.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/React-Core/React/RCTBridgeMethod.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/React-Core/React/RCTNullability.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/ReactCommon/ReactCommon/JSCallInvoker.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/ReactCommon/ReactCommon/TurboModule.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/React-jsi/jsi/jsi.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/React-jsi/jsi/jsi-inl.h \
+  /Users/navvisnavvis/Downloads/patientCoreohome/ios/Pods/Headers/Public/React-cxxreact/cxxreact/MessageQueueThread.h
